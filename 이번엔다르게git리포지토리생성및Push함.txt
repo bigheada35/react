@@ -1,0 +1,16 @@
+github에 레포지토리 react를 만든뒤, PC의 gitbash에서
+git init
+git add README.md
+git add .gitignore
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/bigheada35/react.git
+git status
+git add *
+git status
+git commit -m "2022-01-20"
+git push -u origin main
+
+
+
+
