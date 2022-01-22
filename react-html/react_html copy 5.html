@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+
+
+    <title>Document</title>
+
+
+</head>
+<body>
+    
+
+
+    <div id="mydiv">
+
+
+    </div>
+<!-- 
+   문제 : 클래스 2개 생성, Car에는 present,  변수로는 Name
+    class Model 상속 Car
+    model
+    show()
+
+    show함수를 호출하면
+    MyCar is Ford ::: mustang -->
+
+
+    <script type="text/babel">
+
+    class Car{
+
+            constructor(name){
+                this.name = name;
+            }
+            present(){
+                return 'my car is ' + this.name ;
+            }
+    }
+
+
+    class Model extends Car{ 
+            constructor(company, name){
+                super(name);
+                this.company = company;
+                this.name = name;
+            }
+
+            show(){
+                return 'My Car is :::: '  + this.company + "," +  this.name ;
+            }
+
+    }
+
+    const youCar = new Model("Ford", "mustang");
+    document.write(youCar.show());
+
+
+
+    </script>
+
+
+
+</body>
+</html>

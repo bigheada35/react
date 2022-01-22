@@ -1,0 +1,623 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+새로운 크로스 플랫폼 PowerShell 사용 https://aka.ms/pscore6
+
+PS C:\Users\swj\eclipse-workspace\react> npx create-react-app react-helloworld
+Need to install the following packages:
+  create-react-app
+Ok to proceed? (y) y
+npm WARN deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please 
+upgrade asap.
+
+Creating a new React app in C:\Users\swj\eclipse-workspace\react\react-helloworld.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1354 packages in 4m
+
+168 packages are looking for funding
+  run `npm fund` for details
+
+Initialized a git repository.
+
+Installing template dependencies using npm...
+npm WARN deprecated source-map-resolve@0.6.0: See https://github.com/lydell/source-map-resolve#deprecated
+
+added 33 packages in 13s
+
+168 packages are looking for funding
+  run `npm fund` for details
+Removing template package using npm...
+
+
+removed 1 package, and audited 1387 packages in 5s
+
+168 packages are looking for funding
+  run `npm fund` for details
+
+8 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Created git commit.
+
+Success! Created react-helloworld at C:\Users\swj\eclipse-workspace\react\react-helloworld
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+Compiled successfully!
+
+You can now view react-helloworld in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.0.9:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+assets by path static/ 1.49 MiB
+  asset static/js/bundle.js 1.48 MiB [emitted] (name: main) 1 related asset
+  asset static/js/node_modules_web-vitals_dist_web-vitals_js.chunk.js 6.9 KiB [emitted] 1 related asset
+  asset static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg 2.57 KiB [emitted] (auxiliary name: main)
+asset index.html 1.67 KiB [emitted]
+asset asset-manifest.json 546 bytes [emitted]
+runtime modules 31.3 KiB 15 modules
+modules by path ./node_modules/ 1.35 MiB 91 modules
+modules by path ./src/ 18.2 KiB
+  modules by path ./src/*.css 8.82 KiB
+    ./src/index.css 2.72 KiB [built] [code generated]
+    ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js???ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/index.css 1.37 KiB [built] [code 
+generated]
+    ./src/App.css 2.72 KiB [built] [code generated]                                                                      ?
+    ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js?Compiled with warnings.
+
+src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars 
+
+Search for the keywords to learn more about each warning.     
+To ignore, add // eslint-disable-next-line to the line before.
+
+assets by status 9.47 KiB [cached] 2 assets
+assets by status 1.48 MiB [emitted]        
+  assets by chunk 1.48 MiB (name: main)    
+    asset static/js/bundle.js 1.48 MiB [emitted] (name: main) 1 related asset
+    asset main.fc2142e63aed4f507946.hot-update.js 2.75 KiB [emitted] [immutable] [hmr] (name: main) 1 related asset      
+  assets by path *.json 699 bytes
+    asset asset-manifest.json 671 bytes [emitted]
+    asset main.fc2142e63aed4f507946.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+  asset index.html 1.67 KiB [emitted]
+Compiled with warnings.
+
+src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars 
+
+Search for the keywords to learn more about each warning.     
+To ignore, add // eslint-disable-next-line to the line before.
+
+assets by status 9.47 KiB [cached] 2 assets
+assets by status 1.48 MiB [emitted]        
+  assets by chunk 1.48 MiB (name: main)    
+    asset static/js/bundle.js 1.48 MiB [emitted] (name: main) 1 related asset
+    asset main.d8bba246c924298db169.hot-update.js 2.77 KiB [emitted] [immutable] [hmr] (name: main) 1 related asset      
+  assets by path *.json 699 bytes
+    asset asset-manifest.json 671 bytes [emitted]
+    asset main.d8bba246c924298db169.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+  asset index.html 1.67 KiB [emitted]
+Compiled with warnings.
+
+src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars 
+
+Search for the keywords to learn more about each warning.     
+To ignore, add // eslint-disable-next-line to the line before.
+
+assets by status 9.47 KiB [cached] 2 assets
+assets by status 1.48 MiB [emitted]        
+  assets by chunk 1.48 MiB (name: main)    
+    asset static/js/bundle.js 1.48 MiB [emitted] (name: main) 1 related asset
+    asset main.5c38e57d2c9ad61f63f1.hot-update.js 2.78 KiB [emitted] [immutable] [hmr] (name: main) 1 related asset      
+  assets by path *.json 699 bytes
+    asset asset-manifest.json 671 bytes [emitted]
+    asset main.5c38e57d2c9ad61f63f1.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+  asset index.html 1.67 KiB [emitted]
+Compiled with warnings.
+
+src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars 
+
+Search for the keywords to learn more about each warning.     
+To ignore, add // eslint-disable-next-line to the line before.
+
+assets by status 9.47 KiB [cached] 2 assets
+assets by status 1.48 MiB [emitted]        
+  assets by chunk 1.48 MiB (name: main)    
+    asset static/js/bundle.js 1.48 MiB [emitted] (name: main) 1 related asset
+    asset main.891a9e840f5472970940.hot-update.js 2.78 KiB [emitted] [immutable] [hmr] (name: main) 1 related asset      
+  assets by path *.json 699 bytes
+    asset asset-manifest.json 671 bytes [emitted]
+    asset main.891a9e840f5472970940.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+  asset index.html 1.67 KiB [emitted]
+Compiled with warnings.
+
+src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars 
+
+Search for the keywords to learn more about each warning.     
+To ignore, add // eslint-disable-next-line to the line before.
+
+assets by status 9.47 KiB [cached] 2 assets
+assets by status 1.48 MiB [emitted]        
+  assets by chunk 1.48 MiB (name: main)    
+    asset static/js/bundle.js 1.48 MiB [emitted] (name: main) 1 related asset
+    asset main.04024590213ca5bf2496.hot-update.js 3.4 KiB [emitted] [immutable] [hmr] (name: main) 1 related asset       
+  assets by path *.json 699 bytes
+    asset asset-manifest.json 671 bytes [emitted]
+    asset main.04024590213ca5bf2496.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+  asset index.html 1.67 KiB [emitted]
+Compiled with warnings.
+
+src\App.js
+  Line 1:8:  'logo' is defined but never used   no-unused-vars 
+  Line 4:8:  'Hello' is defined but never used  no-unused-vars 
+
+src\Hello.js
+  Line 3:10:  'Hello' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.      
+To ignore, add // eslint-disable-next-line to the line before. 
+
+assets by status 9.47 KiB [cached] 2 assets
+assets by status 1.49 MiB [emitted]
+  assets by chunk 1.49 MiB (name: main)
+    asset static/js/bundle.js 1.48 MiB [emitted] (name: main) 1 related asset
+    asset main.4fc2b4de7cd2b9326431.hot-update.js 5.6 KiB [emitted] [immutable] [hmr] (name: main) 1 related asset       
+  assets by path *.json 699 bytes
+    asset asset-manifest.json 671 bytes [emitted]
+    asset main.4fc2b4de7cd2b9326431.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+  asset index.html 1.67 KiB [emitted]
+Entrypoint main 1.49 MiB (1.51 MiB) = static/js/bundle.js 1.48 MiB main.4fc2b4de7cd2b9326431.hot-update.js 5.6 KiB 3 auxiliary assets
+cached modules 1.36 MiB [cached] 106 modules
+runtime modules 31.3 KiB 15 modules
+javascript modules 3.35 KiB
+  ./src/App.js 1.95 KiB [built] [code generated]
+Failed to compile.
+
+Attempted import error: './Hello' does not contain a default export (imported as 'Hello').
+assets by status 9.47 KiB [cached] 2 assets
+assets by status 1.49 MiB [emitted]
+  assets by chunk 1.48 MiB (name: main)
+    asset static/js/bundle.js 1.48 MiB [emitted] (name: main) 1 related asset
+    asset main.714cfa7736c3c8acc832.hot-update.js 3.74 KiB [emitted] [immutable] [hmr] (name: main) 1 related asset
+  assets by path *.json 699 bytes
+    asset asset-manifest.json 671 bytes [emitted]
+    asset main.714cfa7736c3c8acc832.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+  asset index.html 1.67 KiB [emitted]
+Entrypoint main 1.48 MiB (1.51 MiB) = static/js/bundle.js 1.48 MiB main.714cfa7736c3c8acc832.hot-update.js 3.74 KiB 3 auxiliary assets
+cached modules 1.37 MiB [cached] 107 modules
+runtime modules 31.3 KiB 15 modules
+./src/App.js 2.08 KiB [built] [code generated]
+
+WARNING in src\App.js
+Failed to compile.
+
+Attempted import error: './Hello' does not contain a default export (imported as 'Hello').
+assets by status 9.47 KiB [cached] 2 assets
+assets by status 1.49 MiB [emitted]
+  assets by chunk 1.48 MiB (name: main)
+    asset static/js/bundle.js 1.48 MiB [emitted] (name: main) 1 related asset
+    asset main.788dd9bafcb1cc64c34a.hot-update.js 4.2 KiB [emitted] [immutable] [hmr] (name: main) 1 related asset
+  assets by path *.json 699 bytes
+    asset asset-manifest.json 671 bytes [emitted]
+    asset main.788dd9bafcb1cc64c34a.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+  asset index.html 1.67 KiB [emitted]
+Entrypoint main 1.48 MiB (1.51 MiB) = static/js/bundle.js 1.48 MiB main.788dd9bafcb1cc64c34a.hot-update.js 4.2 KiB 3 auxiliary assets
+cached modules 1.37 MiB [cached] 107 modules
+runtime modules 31.3 KiB 15 modules
+./src/App.js 2.35 KiB [built] [code generated]
+
+WARNING in src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+
+src\Hello.js
+  Line 3:10:  'Hello' is defined but never used  no-unused-vars
+
+ERROR in ./src/App.js 30:35-40
+export 'default' (imported as 'Hello') was not found in './Hello' (module has no exports)
+ @ ./src/index.js 7:0-24 11:33-36
+Failed to compile.
+
+Attempted import error: './Hello' does not contain a default export (imported as 'Hello').
+assets by status 1.49 MiB [cached] 3 assets
+assets by path . 2.2 KiB
+  asset index.html 1.67 KiB [emitted]
+  asset asset-manifest.json 546 bytes [emitted]
+cached modules 1.37 MiB (javascript) 31.3 KiB (runtime) [cached] 122 modules
+./src/App.js 2.35 KiB [built]
+
+WARNING in src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+
+src\Hello.js
+  Line 3:10:  'Hello' is defined but never used  no-unused-vars
+
+ERROR in ./src/App.js 30:35-40
+export 'default' (imported as 'Hello') was not found in './Hello' (module has no exports)
+ @ ./src/index.js 7:0-24 11:33-36
+Failed to compile.
+
+Attempted import error: './Hello.js' does not contain a default export (imported as 'Hello').
+assets by status 9.47 KiB [cached] 2 assets
+assets by status 1.49 MiB [emitted]
+  assets by chunk 1.48 MiB (name: main)
+    asset static/js/bundle.js 1.48 MiB [emitted] (name: main) 1 related asset
+    asset main.65281c97c0964d732416.hot-update.js 4.21 KiB [emitted] [immutable] [hmr] (name: main) 1 related asset
+  assets by path *.json 699 bytes
+    asset asset-manifest.json 671 bytes [emitted]
+    asset main.65281c97c0964d732416.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+  asset index.html 1.67 KiB [emitted]
+Entrypoint main 1.48 MiB (1.51 MiB) = static/js/bundle.js 1.48 MiB main.65281c97c0964d732416.hot-update.js 4.21 KiB 3 auxiliary assets
+cached modules 1.37 MiB [cached] 107 modules
+runtime modules 31.3 KiB 15 modules
+./src/App.js 2.35 KiB [built] [code generated]
+
+WARNING in src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+
+src\Hello.js
+  Line 3:10:  'Hello' is defined but never used  no-unused-vars
+
+ERROR in ./src/App.js 30:35-40
+export 'default' (imported as 'Hello') was not found in './Hello.js' (module has no exports)
+ @ ./src/index.js 7:0-24 11:33-36
+Failed to compile.
+
+Attempted import error: './Hello.js' does not contain a default export (imported as 'Hello').
+assets by status 9.47 KiB [cached] 2 assets
+assets by status 1.49 MiB [emitted]
+  assets by chunk 1.48 MiB (name: main)
+    asset static/js/bundle.js 1.48 MiB [emitted] (name: main) 1 related asset
+    asset main.78f43bd3a0f64160b4c2.hot-update.js 3.58 KiB [emitted] [immutable] [hmr] (name: main) 1 related asset
+  assets by path *.json 699 bytes
+    asset asset-manifest.json 671 bytes [emitted]
+    asset main.78f43bd3a0f64160b4c2.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+  asset index.html 1.67 KiB [emitted]
+Entrypoint main 1.48 MiB (1.51 MiB) = static/js/bundle.js 1.48 MiB main.78f43bd3a0f64160b4c2.hot-update.js 3.58 KiB 3 auxiliary assets
+cached modules 1.37 MiB [cached] 107 modules
+runtime modules 31.3 KiB 15 modules
+./src/App.js 1.87 KiB [built] [code generated]
+
+WARNING in src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+
+src\Hello.js
+  Line 3:10:  'Hello' is defined but never used  no-unused-vars
+
+ERROR in ./src/App.js 12:36-41
+export 'default' (imported as 'Hello') was not found in './Hello.js' (module has no exports)
+ @ ./src/index.js 7:0-24 11:33-36
+Failed to compile.
+
+Attempted import error: './Hello.js' does not contain a default export (imported as 'Hello').
+assets by status 1.49 MiB [cached] 3 assets
+assets by path . 2.2 KiB
+  asset index.html 1.67 KiB [emitted]
+  asset asset-manifest.json 546 bytes [emitted]
+cached modules 1.37 MiB (javascript) 31.3 KiB (runtime) [cached] 122 modules
+./src/App.js 1.87 KiB [built]
+
+WARNING in src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+
+src\Hello.js
+  Line 3:10:  'Hello' is defined but never used  no-unused-vars
+
+ERROR in ./src/App.js 12:36-41
+export 'default' (imported as 'Hello') was not found in './Hello.js' (module has no exports)
+ @ ./src/index.js 7:0-24 11:33-36
+Failed to compile.
+
+Attempted import error: './Hello' does not contain a default export (imported as 'Hello').
+assets by status 9.47 KiB [cached] 2 assets
+assets by status 1.49 MiB [emitted]
+  assets by chunk 1.48 MiB (name: main)
+    asset static/js/bundle.js 1.48 MiB [emitted] (name: main) 1 related asset
+    asset main.af079909ed4484b4a7af.hot-update.js 3.56 KiB [emitted] [immutable] [hmr] (name: main) 1 related asset
+  assets by path *.json 699 bytes
+    asset asset-manifest.json 671 bytes [emitted]
+    asset main.af079909ed4484b4a7af.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+  asset index.html 1.67 KiB [emitted]
+Entrypoint main 1.48 MiB (1.51 MiB) = static/js/bundle.js 1.48 MiB main.af079909ed4484b4a7af.hot-update.js 3.56 KiB 3 auxiliary assets
+cached modules 1.37 MiB [cached] 107 modules
+runtime modules 31.3 KiB 15 modules
+./src/App.js 1.87 KiB [built] [code generated]
+
+WARNING in src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+
+src\Hello.js
+  Line 3:10:  'Hello' is defined but never used  no-unused-vars
+
+ERROR in ./src/App.js 12:36-41
+export 'default' (imported as 'Hello') was not found in './Hello' (module has no exports)
+ @ ./src/index.js 7:0-24 11:33-36
+Compiled with warnings.
+
+src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars 
+
+Search for the keywords to learn more about each warning.     
+To ignore, add // eslint-disable-next-line to the line before.
+
+assets by status 9.47 KiB [cached] 2 assets
+assets by status 1.48 MiB [emitted]        
+  assets by chunk 1.48 MiB (name: main)    
+    asset static/js/bundle.js 1.48 MiB [emitted] (name: main) 1 related asset
+    asset main.76ab5bb1204bd858a123.hot-update.js 2.67 KiB [emitted] [immutable] [hmr] (name: main) 1 related asset      
+  assets by path *.json 699 bytes
+    asset asset-manifest.json 671 bytes [emitted]
+    asset main.76ab5bb1204bd858a123.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+  asset index.html 1.67 KiB [emitted]
+Entrypoint main 1.48 MiB (1.51 MiB) = static/js/bundle.js 1.48 MiB main.76ab5bb1204bd858a123.hot-update.js 2.67 KiB 3 auxiliary assets
+Compiled with warnings.
+
+src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars 
+
+Search for the keywords to learn more about each warning.     
+To ignore, add // eslint-disable-next-line to the line before.
+
+assets by status 1.49 MiB [cached] 3 assets
+assets by path . 2.2 KiB
+  asset index.html 1.67 KiB [emitted]
+  asset asset-manifest.json 546 bytes [emitted]
+cached modules 1.37 MiB (javascript) 31.3 KiB (runtime) [cached] 122 modules
+./src/App.js 1.87 KiB [built]
+
+WARNING in src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+
+webpack 5.66.0 compiled with 1 warning in 113 ms
+일괄 작업을 끝내시겠습니까 (Y/N)? y
+PS C:\Users\swj\eclipse-workspace\react\react-helloworld> 
+PS C:\Users\swj\eclipse-workspace\react\react-helloworld> 
+PS C:\Users\swj\eclipse-workspace\react\react-helloworld> cd ..
+PS C:\Users\swj\eclipse-workspace\react> npx create-react-app react-hello3
+
+Creating a new React app in C:\Users\swj\eclipse-workspace\react\react-hello3.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1354 packages in 3m
+
+168 packages are looking for funding
+  run `npm fund` for details        
+
+Initialized a git repository.
+
+Installing template dependencies using npm...
+npm WARN deprecated source-map-resolve@0.6.0: See https://github.com/lydell/source-map-resolve#deprecated
+
+added 33 packages in 13s
+
+168 packages are looking for funding
+  run `npm fund` for details
+Removing template package using npm...
+
+
+removed 1 package, and audited 1387 packages in 4s
+
+168 packages are looking for funding
+  run `npm fund` for details
+
+8 moderate severity vulnerabilities
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Created git commit.
+
+Success! Created react-hello3 at C:\Users\swj\eclipse-workspace\react\react-hello3
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+Compiled successfully!
+
+You can now view react-hello3 in the browser.    
+
+  Local:            http://localhost:3000        
+  On Your Network:  http://192.168.0.9:3000      
+
+Note that the development build is not optimized.
+To create a production build, use npm run build. 
+
+assets by path static/ 1.49 MiB
+  asset static/js/bundle.js 1.48 MiB [emitted] (name: main) 1 related asset
+  asset static/js/node_modules_web-vitals_dist_web-vitals_js.chunk.js 6.89 KiB [emitted] 1 related asset
+  asset static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg 2.57 KiB [emitted] (auxiliary name: main)
+asset index.html 1.67 KiB [emitted]
+asset asset-manifest.json 546 bytes [emitted]
+runtime modules 31.3 KiB 15 modules
+modules by path ./node_modules/ 1.35 MiB 91 modules
+modules by path ./src/ 18.2 KiB
+  modules by path ./src/*.css 8.82 KiB
+    ./src/index.css 2.72 KiB [built] [code generated]
+    ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/index.css 1.37 KiB [built] [code 
+generated]
+    ./src/App.css 2.72 KiB [built] [code generated]
+    ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js?Compiled with warnings.
+
+src\App.js
+  Line 4:8:  'Hello' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.     
+To ignore, add // eslint-disable-next-line to the line before.
+
+assets by status 9.46 KiB [cached] 2 assets
+assets by status 1.49 MiB [emitted]
+  assets by chunk 1.49 MiB (name: main)
+    asset static/js/bundle.js 1.48 MiB [emitted] (name: main) 1 related asset
+    asset main.4e4cd7a2b5e2b656ec0c.hot-update.js 6.59 KiB [emitted] [immutable] [hmr] (name: main) 1 related asset      
+  assets by path *.json 699 bytes
+    asset asset-manifest.json 671 bytes [emitted]
+    asset main.4e4cd7a2b5e2b656ec0c.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+  asset index.html 1.67 KiB [emitted]
+Entrypoint main 1.49 MiB (1.51 MiB) = static/js/bundle.js 1.48 MiB main.4e4cd7a2b5e2b656ec0c.hot-update.js 6.59 KiB 3 auxiliary assets
+cached modules 1.36 MiB [cached] 106 modules
+runtime modules 31.3 KiB 15 modules
+Compiled successfully!
+
+You can now view react-hello3 in the browser.    
+
+  Local:            http://localhost:3000        
+  On Your Network:  http://192.168.0.9:3000      
+
+Note that the development build is not optimized.
+To create a production build, use npm run build. 
+
+assets by status 9.46 KiB [cached] 2 assets
+assets by status 1.49 MiB [emitted]
+  assets by chunk 1.49 MiB (name: main)
+    asset static/js/bundle.js 1.48 MiB [emitted] (name: main) 1 related asset
+    asset main.dccec2ae2f36e346d948.hot-update.js 4.51 KiB [emitted] [immutable] [hmr] (name: main) 1 related asset      
+  assets by path *.json 699 bytes
+    asset asset-manifest.json 671 bytes [emitted]
+Compiled successfully!
+
+You can now view react-hello3 in the browser.    
+
+  Local:            http://localhost:3000        
+  On Your Network:  http://192.168.0.9:3000      
+
+Note that the development build is not optimized.
+To create a production build, use npm run build. 
+
+assets by status 9.46 KiB [cached] 2 assets
+assets by status 1.49 MiB [emitted]
+  assets by chunk 1.49 MiB (name: main)
+    asset static/js/bundle.js 1.48 MiB [emitted] (name: main) 1 related asset
+    asset main.a37d63ce42828f9c4130.hot-update.js 4.51 KiB [emitted] [immutable] [hmr] (name: main) 1 related asset      
+  assets by path *.json 699 bytes
+    asset asset-manifest.json 671 bytes [emitted]
+Compiled successfully!
+
+You can now view react-hello3 in the browser.    
+
+  Local:            http://localhost:3000        
+  On Your Network:  http://192.168.0.9:3000      
+
+Note that the development build is not optimized.
+To create a production build, use npm run build. 
+
+assets by status 9.46 KiB [cached] 2 assets
+assets by status 1.49 MiB [emitted]        
+Compiled with warnings.
+
+src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars 
+
+Search for the keywords to learn more about each warning.     
+To ignore, add // eslint-disable-next-line to the line before.
+
+assets by status 9.46 KiB [cached] 2 assets
+assets by status 1.49 MiB [emitted]
+  assets by chunk 1.48 MiB (name: main)
+    asset static/js/bundle.js 1.48 MiB [emitted] (name: main) 1 related asset
+    asset main.fbfdb1f4d4b30b0a2a4a.hot-update.js 3.8 KiB [emitted] [immutable] [hmr] (name: main) 1 related asset
+  assets by path *.json 699 bytes
+Compiled with warnings.
+
+src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars 
+
+Search for the keywords to learn more about each warning.     
+To ignore, add // eslint-disable-next-line to the line before.
+
+assets by status 9.46 KiB [cached] 2 assets
+assets by status 1.49 MiB [emitted]
+  assets by chunk 1.49 MiB (name: main)
+    asset static/js/bundle.js 1.48 MiB [emitted] (name: main) 1 related asset
+    asset main.4a497dba2a5a43cf1178.hot-update.js 4.89 KiB [emitted] [immutable] [hmr] (name: main) 1 related asset
+  assets by path *.json 699 bytes
+Compiled successfully!
+
+You can now view react-hello3 in the browser.    
+
+  Local:            http://localhost:3000        
+  On Your Network:  http://192.168.0.9:3000      
+
+Note that the development build is not optimized.
+To create a production build, use npm run build. 
+
+assets by status 9.46 KiB [cached] 2 assets
+assets by status 1.49 MiB [emitted]        
+Compiled successfully!
+
+You can now view react-hello3 in the browser.    
+
+  Local:            http://localhost:3000        
+  On Your Network:  http://192.168.0.9:3000      
+
+Note that the development build is not optimized.
+To create a production build, use npm run build. 
+
+assets by status 9.46 KiB [cached] 2 assets
+assets by status 1.49 MiB [emitted]        
+Compiled with warnings.
+
+src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars 
+
+Search for the keywords to learn more about each warning.     
+To ignore, add // eslint-disable-next-line to the line before.
+
+assets by status 9.46 KiB [cached] 2 assets
+assets by status 1.49 MiB [emitted]
+  assets by chunk 1.48 MiB (name: main)
+    asset static/js/bundle.js 1.48 MiB [emitted] (name: main) 1 related asset
+    asset main.0c08377c7b9cb59e2359.hot-update.js 3.8 KiB [emitted] [immutable] [hmr] (name: main) 1 related asset
+  assets by path *.json 699 bytes
+    asset asset-manifest.json 671 bytes [emitted]
+    asset main.0c08377c7b9cb59e2359.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+  asset index.html 1.67 KiB [emitted]
+Entrypoint main 1.48 MiB (1.51 MiB) = static/js/bundle.js 1.48 MiB main.0c08377c7b9cb59e2359.hot-update.js 3.8 KiB 3 auxiliary assets
+cached modules 1.37 MiB [cached] 107 modules
+runtime modules 31.3 KiB 15 modules
+./src/App.js 2 KiB [built] [code generated]
+
+WARNING in src\App.js
+  Line 1:8:  'logo' is defined but never used  no-unused-vars
+
+webpack 5.66.0 compiled with 1 warning in 279 ms
+일괄 작업을 끝내시겠습니까 (Y/N)? y
+PS C:\Users\swj\eclipse-workspace\react\react-hello3>      
