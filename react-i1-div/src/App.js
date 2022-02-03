@@ -5,8 +5,10 @@ import Headers from './Headers.js'
 import Goal from './Goal.js'
 import FavoriteColor from './FavoriteColor';
 import Car from './Car.js'
-
-
+import UseEffectExample from './UseEffectExample';
+import QuizKorEngMatTotAvg from './QuizKorEngMatTotAvg.js'
+import QuizGrade from './QuizGrade.js'
+import QuizGrade_refactoring from './QuizGrade_refactoring.js'
 function App() {
   return (
     <div className="App">
@@ -16,9 +18,18 @@ function App() {
 
     <Goal isGoad= {true}></Goal>
 
-    <FavoriteColor></FavoriteColor> */}
+    <FavoriteColor></FavoriteColor> 
 
     <Car></Car>
+    
+    <UseEffectExample></UseEffectExample>
+    
+   <QuizKorEngMatTotAvg></QuizKorEngMatTotAvg>
+*/}
+
+   {/* <QuizGrade></QuizGrade> */}
+
+  <QuizGrade_refactoring></QuizGrade_refactoring>
 
     </div>
   );
