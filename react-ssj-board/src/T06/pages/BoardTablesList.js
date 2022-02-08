@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import {useState} from 'react';
 import {Link} from "react-router-dom";
 import axios from "axios";
-import BoardDataService from "../services/BoardSerivce.js"
+import BoardDataService from "../services/BoardService.js"
 
 
 const BoardTablesList = () => {
