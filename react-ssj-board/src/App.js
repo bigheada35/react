@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 //import RefTest from './RefTest.js';
+<<<<<<< HEAD
 import RefDom from './T01RefDom.js';
 import Header from "./T04components/Header";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -17,6 +18,11 @@ import T04Board from "./T04Board.js"
 //import Board from "./T06/Board.js"
 
 
+=======
+//import RefDom from './RefDom.js';
+import Header from "./components/Header";
+import "bootstrap/dist/css/bootstrap.min.css";
+>>>>>>> bbae62698911cf6f8e8c1d0e7cfc17964b6aa13e
 
 
 function App() {
@@ -37,11 +43,15 @@ function App() {
           Learn React
         </a>
       </header> */}
+<<<<<<< HEAD
       
+=======
+>>>>>>> bbae62698911cf6f8e8c1d0e7cfc17964b6aa13e
       {/* <RefTest></RefTest> */}
 
       {/* <RefDom></RefDom> */}
 
+<<<<<<< HEAD
       {/* <T01useEffect></T01useEffect> */}
       
       {/* <T02useRef></T02useRef> */}
@@ -61,6 +71,10 @@ function App() {
 
         {/* <Board></Board> */}
         
+=======
+      <Header></Header>
+
+>>>>>>> bbae62698911cf6f8e8c1d0e7cfc17964b6aa13e
     </div>
   );
 }
