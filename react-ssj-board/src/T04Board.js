@@ -7,6 +7,9 @@ import { Link, Route, Routes } from 'react-router-dom';
 import BoardWrite from "./T04components/BoardWrite";
 import Board from "./T04components/Board";
 
+import BoardPaging from './T04pages/BoardListWithPaging';
+
+
 const T04Board = () => {
 
 
@@ -21,7 +24,8 @@ const T04Board = () => {
             {/* <BoardTablesList></BoardTablesList> */}
 
             <Routes>
-                <Route path = "/" element ={ <BoardTablesList/> } />
+                {/* <Route path = "/" element ={ <BoardTablesList/> } /> */}
+                <Route path = "/" element ={ <BoardPaging/> } />
                 <Route path = "/write" element ={ <BoardWrite/> } />
 
                                 {/* 주의 :  /board/:bid에서   : 사용 */}

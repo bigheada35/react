@@ -25,6 +25,12 @@ const update=(id, board) => {
 };
 
 
+//페이징용 - 리스트 와 페이징 정보를 같이 받아 온다.
+//path에 값이 안들어 오면,  아래 써놓은 것이, 대입이 된다.
+const getPagingList = (path='/rboard/list2')=>{     
+    return http.get(path);
+}
+
 export{}
 export default{
     getAll,
@@ -32,4 +38,5 @@ export default{
     write,
     get,
     update,
+    getPagingList,
 };

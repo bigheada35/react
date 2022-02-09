@@ -1,5 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import BoardDataService from "../services/BoardService.js";
+import {Link} from "react-router-dom";
+import axios from "axios";
+//import await from "await";
+import BoardDataService from "../T04services/BoardService.js"
+
 
 
 const BoardTablesList = () => {
@@ -83,7 +88,7 @@ const BoardTablesList = () => {
                          <button
                            className="btn btn-success"
                            value={board.bid}
-                           onClick={deleteBoard}
+                           //onClick={deleteBoard}
                          >
                            삭제
                          </button>
