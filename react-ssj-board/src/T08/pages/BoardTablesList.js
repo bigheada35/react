@@ -1,77 +1,43 @@
+import axios from 'axios';
 import React, { useEffect } from 'react';
-import {useState} from 'react';
-import {Link} from "react-router-dom";
-import axios from "axios";
-//import await from "await";
-import BoardDataService from "../T04services/BoardService.js"
+import BoardDataService from "../services/BoardService"
+import axios from "axios"
 
 const BoardTablesList = () => {
 
-
-    const [boards, setBoards] = useState([]);
-
-    useEffect( () => {
-        //getBoards();
-        allBoards();
-    },[]    //빈배열[] 이 있는 경우는, 초기화 되었을때 1번만  랜더링 된다.     참고, []가 아예 없으면 랜더링 될때만다 바뀐다.
-    );
-
-    //.then을 사용하면 async() 안쓰고, await안써도 된다.
-    const getBoards = async() => { 
-
-
-        const response = await axios.get("http://146.56.137.240:8282/hjs/rboard/list");//선생님 미국 서버
-        //const response = axios.get("http://146.56.137.240:8282/hjs/rboard/list");//선생님 미국 서버
-  
-        console.log(response.data);
+    const BoardTableList = () => {
+        const [boards, setBoards] = useState([])
+        useEffect( ()=>{
+            allBoards();
+        },[]);
+    }
+    const getBoards = async()=> {
+        const response = await axios.get("http://146.56.137.240:8282/hjs/rboard/list");
         setBoards(response.data);
     }
-
-    const allBoards = () => {
-        console.log('allBoard()------1-----------');
+    const allBoards = ()=>{
         BoardDataService.getAll()
-        .then((response)=>{//.then 은  성공하게 되면 의 뜻.
+        .then((response)=>{
             setBoards(response.data);
-            console.log(response.data);
-
         })
         .catch((e)=>{
-            console.log(e);
+            console.log(e)
         })
-    };
-
-
-
+    }
     const deleteBoard = (e) => {
-       
-        const{ value, name} = e.target;
-        //const bid = event.target.value;
-
+        const {value, name} = e.target;
         BoardDataService.remove(value)
-        //BoardDataService.remove(bid)
-        
-        .then((response)=>{//.then 은  성공하게 되면 의 뜻.
-
-            //allBoards();  
-            setBoards(boards.filter((board) => board.bid !== parseInt(value)));
-
-            //  ----- v  xxxxx -----
-            //  BoardDataService.getAll()
-            //  .then((response)=>{//.then 은  성공하게 되면 의 뜻.
-            //      setBoards(response.data);
-            //      console.log(response.data);
-    
-            //  })
+        .then(()=>{
+            setBoards(boards.filter((board)=>board.bid != parseInit(value)));
+        })
+        .catch(()=>{
 
         })
-        .catch((e)=>{
-            console.log(e);
-        })
-
-
     }
 
+
     return (
+
 
         // sbAdmin에서 가지고 온것
 
@@ -159,8 +125,7 @@ const BoardTablesList = () => {
     );
 };
 
-
-
-
-
 export default BoardTablesList;
+
+
+

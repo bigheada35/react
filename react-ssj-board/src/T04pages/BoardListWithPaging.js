@@ -13,7 +13,7 @@ const BoardListWithPaging = () => {
 
   useEffect(()=>{
     retrieveBoards();
-  },[]);
+  },[]); //1번만 
 
   const retrieveBoards = () => {
     BoardDataService.getPagingList()
@@ -21,19 +21,21 @@ const BoardListWithPaging = () => {
         setBoards(response.data.boards);
         setPaging(response.data.page);
 
-        console.log(response.data.boards);
-        console.log(response.data.page);
+        //console.log(response.data.boards);
+        //console.log(response.data.page);
       })
       .catch((e) => {
         console.log(e);
       });
   };
-
+  //링크객체 : e
   const onClickPaging = (e) => {
     e.preventDefault(); // 이벤트 기본 동작 을 멈추기
-    console.log(e.target.pathname);
+    // "/rboard/list2" + "?pageNum=20"
+    //console.log(e.target.pathname);// /rboard/list2
+    //console.log(e.target.search);//?pageNum=20
     
-    BoardDataService.getPagingList(e.target.pathname)
+    BoardDataService.getPagingList(e.target.pathname, e.target.search)
       .then((response) => {
         setBoards(response.data.boards);
         setPaging(response.data.page);
@@ -67,7 +69,7 @@ const BoardListWithPaging = () => {
       });
   };
 
-
+  console.log(paging);
   return (
     <div className="container mt-3">
       <div className="container-fluid">
@@ -135,10 +137,16 @@ const BoardListWithPaging = () => {
                 </tbody>
               </table>
             </div>
+
+
+            <nav aria-label="Page navigation example">
+              <ul class="pagination justify-content-center">
+
             {paging.pre === true && (
                 //  ???? local host 3000 으로 link를  시도 하고 있는 지? 아닌지? 
                 // 원래는 서버("http://146.56.137.240:8282/hjs", ) 에서 받아 오도록 되어야 하는데.
               <Link
+                    className="page-link"
                 to={
                   '/rboard/list2' +
                   '?pageNum=' +
@@ -158,15 +166,17 @@ const BoardListWithPaging = () => {
               const row = [];
               for (let i = paging.startPage; i < paging.endPage; i++) {
                 console.log(
-                  '/list2/' +
-                    '?pageNum=' +
+                      "/rboard/list2" +
+                        "?pageNum=" +
                     i +
-                    '&' +
-                    'amount=' +
+                        "&" +
+                        "amount=" +
                     paging.cri.amount,
                 );
                 row.push(
+                      <li class="page-item" key={i}>
                   <Link
+                          className="page-link"
                     to={
                       '/rboard/list2' +
                       '?pageNum=' +
@@ -179,14 +189,17 @@ const BoardListWithPaging = () => {
                   >
                     {' '}
                     {i}
-                  </Link>,
+                   </Link>
+                  </li>
                 );
               }
               return row;
             })()}
 
             {paging.next === true && paging.endPage > 0 && (
+                  <li class="page-item">
               <Link
+                      className="page-link"
                 to={
                   '/rboard/list2' +
                   '?pageNum=' +
@@ -200,7 +213,12 @@ const BoardListWithPaging = () => {
                 {' '}
                 다음{' '}
               </Link>
+             </li>
             )}
+
+              </ul>
+            </nav>
+            <div className="text-center">
 
             <hr />
             <Link to="/write">
@@ -212,7 +230,9 @@ const BoardListWithPaging = () => {
         </div>
       </div>
     </div>
-    // <!-- /.container-fluid -->
+
+    </div>
+     // <!-- /.container-fluid -->
   );
 
 
@@ -220,5 +240,4 @@ const BoardListWithPaging = () => {
 };
 
 export default BoardListWithPaging;
-
 

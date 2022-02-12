@@ -16,9 +16,10 @@ import T04Board from "./T04Board.js"
 
 //import T05Board from "./T05/Board.js"
 //import T06Board from "./T06/Board.js"
-import T07BoardRoot from "./T07/BoardRoot"
+//import T07BoardRoot from "./T07/BoardRoot"
+//import T08BoardRoot from "./T08/BoardRoot"
 
-
+//
 
 
 function App() {
@@ -60,13 +61,14 @@ function App() {
 
       {/* ssj class to make board by react */}
       <T04Board></T04Board>
-
       {/* ssj drill */}
       {/* <T05Board></T05Board> */}
       {/* ssj m-test */}
       {/* <T06Board></T06Board> */}
     {/* ssj m-test */}
       {/* <T07BoardRoot></T07BoardRoot> */}
+      {/* ssj m-test */}
+      {/* <T08BoardRoot></T08BoardRoot> */}
         
 
     </div>
