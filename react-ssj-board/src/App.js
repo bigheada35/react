@@ -12,7 +12,8 @@ import T02useRef2 from "./T02useRef2.js"
 import T02useRefuseState from "./T02useRefuseState.js"
 
 import T03Router from "./T03Router.js"
-import T04Board from "./T04Board.js"
+//import T04Board from "./T04Board.js"
+import T04Board from "./T04Board_ssj.js"
 
 //import T05Board from "./T05/Board.js"
 //import T06Board from "./T06/Board.js"

@@ -60,7 +60,7 @@ const BoardTablesList = () => {
         
         .then((response)=>{//.then 은  성공하게 되면 의 뜻.
 
-            
+          setBoards(boards.filter((board) => board.bid !== parseInt(value)));
 
             // BoardDataService.getAll()
             // .then((response)=>{//.then 은  성공하게 되면 의 뜻.
